@@ -1,4 +1,17 @@
 p {
-    background-color: #f4f4f4;
-    color: blue;
+    /* background-color: #f4f4f4; */
+    /* color: blue; */
+
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.box-1 {
+    background-color: #181515;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: auto;  /* Makes content alligned in the middle */
 }
