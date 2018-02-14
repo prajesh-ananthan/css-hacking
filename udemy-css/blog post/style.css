@@ -3,23 +3,25 @@
     padding: 0;
     box-sizing: border-box
 }
+
 body {
     font-family: Helvetica Neue, Arial;
     font-size: 18px;
 }
 
-h1, h2 {
-  color: #13c513;
+h1,
+h2 {
+    color: #13c513;
 }
 
 h1 {
-  font-size: 40px;
-  margin-bottom: 20px;
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
 h2 {
-  font-size: 25px;
-  margin-bottom: 10px;
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
 .main-text {
@@ -30,4 +32,25 @@ h2 {
 
 .author-text {
     font-size: 22px;
+}
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-post {
+    background-color: #0000ff;
+    width: 75%;
+    float: left;
+}
+
+.other-posts {
+    background-color: #00ff00;
+}
+
+/* Stopped at 8:02 */
+.author-box {
+    background-color: #ffff00;
 }
