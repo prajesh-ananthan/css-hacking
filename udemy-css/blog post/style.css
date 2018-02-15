@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 body {
@@ -32,25 +32,62 @@ h2 {
 
 .author-text {
     font-size: 22px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .container {
     width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin: top right bottom left */
+    margin: 20px auto 0 auto;
 }
 
 .blog-post {
-    background-color: #0000ff;
     width: 75%;
     float: left;
+    position: relative;
+    border: 1px dotted rebeccapurple;
+}
+
+.blog-post img {
+    height: 150px;
+    width: auto;
+    border: 1px solid orange;
 }
 
 .other-posts {
-    background-color: #00ff00;
+    width: 25%;
+    float: left;
 }
 
+
 /* Stopped at 8:02 */
+
 .author-box {
-    background-color: #ffff00;
+    border-top: 1px solid #0000009f;
+    padding-top: 10px;
+}
+
+.author-box img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+}
+
+.other {
+    margin-bottom: 25px;
+}
+
+.date {
+    position: absolute;
+    top: 15px;
+    right: 10px;
 }
