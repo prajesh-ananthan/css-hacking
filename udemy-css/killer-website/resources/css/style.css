@@ -17,3 +17,23 @@ html {
     max-width: 1140px;
     margin: 0 auto; /* top and bottom is 0, left and right are auto */
 }
+
+header {
+    /* Make the image darker */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.699), #000), url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* means 100% height of the viewport */
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* https://goo.gl/3n7w4u */
+}
+
+h1 {
+    margin: 0;
+}
