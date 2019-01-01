@@ -1,3 +1,14 @@
+/**
+
+Absolute positioning
+=> The element is positioned relative to its first positioned (not static) ancestor element
+
+Relative positioning
+=> The element is positioned relative to its normal position,
+so "left:20px" adds 20 pixels to the element's LEFT position
+
+ */
+
 html {
     background-color: #fa923f;
     padding: 10px;
@@ -7,20 +18,41 @@ body {
     background-color: yellow;
     padding: 10px;
     margin: 0;
+    position: absolute;
+    /*top: 30px;*/
 
 }
 
 header {
     background-color: #f073e1;
     margin: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
 }
 
 nav {
     background-color: #f073e1;
     margin: 10px;
+    position: relative;
+    top: 100px;
 }
 
 footer {
     background-color: #f073e1;
     margin: 10px;
 }
+
+/*.test-div {*/
+    /*background-color: #f073e1;*/
+    /*margin: 0 25px;*/
+    /*position: relative;*/
+    /*top: 50px;*/
+/*}*/
+
+/*.containing-div {*/
+    /*border: 1px solid red;*/
+    /*background-color: black;*/
+    /*margin: 10px;*/
+/*}*/
